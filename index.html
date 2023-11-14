@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mountain</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
     <!-- navbar -->
@@ -29,13 +31,46 @@
         </div>
     </header>
 
+    <!-- Events -->
+    <section class="events">
+        <div class="title">
+            <h1>Upcoming events</h1>
+            <div class="line"></div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img src="images/img1.png" alt="">
+                <h4>Everest camp trek</h4>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione, illo.</p>
+                <a href="#" class="ctn">learn more</a>
+            </div>
+            <div class="col">
+                <img src="images/img2.png" alt="">
+                <h4>Walking holidays</h4>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione, illo.</p>
+                <a href="#" class="ctn">learn more</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="explore">
+        <div class="explore-content">
+            <h1>Explore the world</h1>
+            <div class="line"></div>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim autem animi tenetur quasi nobis doloremque
+                quas voluptatem amet pariatur numquam.</p>
+            <a href="#" class="ctn">learn more</a>
+        </div>
+    </section>
+
     <script>
-        const  menuBtn = document.querySelector('.menu-btn')
+        const menuBtn = document.querySelector('.menu-btn')
         const navlinks = document.querySelector('.nav-links')
 
-        menuBtn.addEventListener('click', ()=>{
+        menuBtn.addEventListener('click', () => {
             navlinks.classList.toggle('mobile-menu')
         })
     </script>
 </body>
+
 </html>
